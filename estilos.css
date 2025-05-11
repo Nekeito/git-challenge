@@ -1,0 +1,52 @@
+body {
+    background-color: #D5e1ef;
+}
+
+.contenedor{
+    width: 320px;
+    height: 500px;
+    background-color: #fff;
+    /* display: flex; */
+    border-radius: 20px;
+    align-items: center;
+    margin: auto;
+    align-content: center;
+}
+
+/* .contenedor .codigo{
+    border-radius: 10px;
+} */
+
+.contenedor img{
+    width: 288px;
+    border-radius: 10px;
+    /* padding: 16px; */
+    margin: 16px 16px 16px;
+}
+
+
+.contenedor .texto{
+    width: 288px;
+    height: 132px;
+    margin:auto;
+    font-family: "Outfit" , sans-serif;
+
+}
+
+.contenedor .texto .parrafo1 {
+    font-size: 22px;
+    text-align: center;
+    color: #1f314f;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.contenedor .texto .parrafo2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #68778D;
+    line-height: 20px;
+    margin-bottom: 0px;
+
+}
