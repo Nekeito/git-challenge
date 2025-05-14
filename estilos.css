@@ -1,17 +1,26 @@
 body {
     background-color: #D5e1ef;
+    height: 100%;
+    margin: 0;
+
 }
 
 .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.qr-code{
     width: 320px;
     height: 500px;
     background-color: #fff;
     border-radius: 20px;
-    margin: auto;
 }
 
-
-.contenedor img{
+.qr-code img{
     width: 288px;
     border-radius: 10px;
     /* padding: 16px; */
@@ -20,7 +29,7 @@ body {
 }
 
 
-.contenedor .texto{
+.qr-code .texto{
     width: 288px;
     height: 132px;
     margin:auto;
@@ -28,7 +37,7 @@ body {
 
 }
 
-.contenedor .texto .parrafo1 {
+.qr-code .texto .parrafo1 {
     font-size: 22px;
     text-align: center;
     color: #1f314f;
@@ -36,12 +45,11 @@ body {
     margin: 0%;
 }
 
-.contenedor .texto .parrafo2{
+.qr-code .texto .parrafo2{
     text-align: center;
     font-size: 15px;
     font-weight: 400;
     color: #68778D;
     line-height: 20px;
     margin-bottom: 0px;
-
 }
